@@ -9,9 +9,9 @@ body {
     opacity: 0.56;
     -webkit-filter: blur(5em);
     -webkit-transform: scale(1, 0.8);
-    display: flex;
-    justify-content: end;
-    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
     
 }
 #purple-shadow {
