@@ -41,15 +41,15 @@ p {
     font-size: 1.25em;
 }
 
-#container {
+.container {
     display: flex;
 }
   
-#column-left, #column-right {
+.column-left, .column-right {
     width: 50%;
 }
   
-#column-left {
+.column-left {
     margin-top: 50%;
     margin-left: 10%;
 }
