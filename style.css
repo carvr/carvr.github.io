@@ -2,16 +2,16 @@ body {
     background-color: #7ebde5
 }
 #pink-shadow {
-    border-radius: 50%;
-    width: 20em;
-    height: 30em;
+    border-radius: 70%;
+    width: 35em;
+    height: 50em;
     background: #ea3381;
-    opacity: 0.56;
-    -webkit-filter: blur(5em);
-    -webkit-transform: scale(1, 0.8);
+    opacity: 0.4;
+    -webkit-filter: blur(8em);
+    -webkit-transform: scale(1, 0.88);
     position: absolute;
     right: 0;
-    bottom: 0;
+    margin-top: 10em;
     
 }
 #purple-shadow {
@@ -19,10 +19,38 @@ body {
     width: 20em;
     height: 20em;
     background: #343166;
-    opacity: 0.55;
+    opacity: 0.4;
     -webkit-filter: blur(5em);
     -webkit-transform: scale(1, 0.7);
     position: absolute;
     left: 0;
     top: 0;
 }
+
+h1, h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    text-transform: capitalize;
+}
+
+h1{
+    font-size: 5.5em;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25em;
+}
+
+#container {
+    display: flex;
+}
+  
+#column-left, #column-right {
+    width: 50%;
+}
+  
+#column-left {
+    margin-top: 50%;
+    margin-left: 10%;
+}
+  
