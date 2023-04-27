@@ -1,0 +1,28 @@
+body {
+    background-color: #7ebde5
+}
+#pink-shadow {
+    border-radius: 50%;
+    width: 20em;
+    height: 30em;
+    background: #ea3381;
+    opacity: 0.56;
+    -webkit-filter: blur(5em);
+    -webkit-transform: scale(1, 0.8);
+    display: flex;
+    justify-content: end;
+    float: right;
+    
+}
+#purple-shadow {
+    border-radius: 50%;
+    width: 20em;
+    height: 20em;
+    background: #343166;
+    opacity: 0.55;
+    -webkit-filter: blur(5em);
+    -webkit-transform: scale(1, 0.7);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
